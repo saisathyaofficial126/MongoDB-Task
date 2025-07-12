@@ -82,17 +82,17 @@ db.codekata.insertMany([{
 db.topics.insertMany([{
     topicid: 1,
     topic: "HTML",
-    topic_date: new Date("4-oct-2020"),
+    topic_date: new Date("15-oct-2020"),
 },
 {
     topicid: 2,
     topic: "CSS",
-    topic_date: new Date("10-oct-2020"),
+    topic_date: new Date("16-oct-2020"),
 },
 {
     topicid: 3,
     topic: "Javascript",
-    topic_date: new Date("15-oct-2020"),
+    topic_date: new Date("17-oct-2020"),
 },
 {
     topicid: 4,
@@ -113,7 +113,7 @@ db.tasks.insertMany([{
     topicid: 1,
     userid: 1,
     task: "HTML Task",
-    due_date: new Date("4-oct-2020"),
+    due_date: new Date("15-oct-2020"),
     submitted: true,
 },
 {
@@ -121,7 +121,7 @@ db.tasks.insertMany([{
     topicid: 2,
     userid: 2,
     task: "CSS Task",
-    due_date: new Date("10-oct-2020"),
+    due_date: new Date("16-oct-2020"),
     submitted: true,
 },
 {
@@ -129,7 +129,7 @@ db.tasks.insertMany([{
     topicid: 3,
     userid: 3,
     task: "Javascript Task",
-    due_date: new Date("15-oct-2020"),
+    due_date: new Date("17-oct-2020"),
     submitted: false,
 },
 {
@@ -213,12 +213,12 @@ db.mentors.insertMany([{
 
 db.comapnydrives.insertMany([{
     userid: 1,
-    drive_date: new Date("10-oct-2020"),
+    drive_date: new Date("15-oct-2020"),
     company: "Amazon",
 },
 {
     userid: 2,
-    drive_date: new Date("15-oct-2020"),
+    drive_date: new Date("17-oct-2020"),
     company: "myntra",
 },
 {
